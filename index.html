@@ -133,7 +133,10 @@
 		<div style="clear: both;"></div>
         <div id="footerCont">
         	<div id="copyright">
-           Vita Bella Pizza <span id="year"></span>
+           Vita Bella Pizza	&copy;<span id="year"></span>
+	   <script>
+  document.getElementById("year").innerHTML = new Date().getFullYear();
+  </script>
             </div>
             <div id="footerNav">
             	<a href="#">Home</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="HTML/order.html">Menu</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
