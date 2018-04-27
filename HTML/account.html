@@ -1,0 +1,284 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!-- saved from url=(0062)https://vitabella-plainfield.foodtecsolutions.com:9443/account -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="-1">
+<meta name="ROBOTS" content="NOINDEX,NOFOLLOW">
+<meta name="ROBOTS" content="NONE">
+<meta name="apple-itunes-app" content="app-id=">
+<meta name="ROBOTS" content="NOARCHIVE">
+<meta name="GOOGLEBOT" content="NOARCHIVE">
+<meta http-equiv="EXPIRES" content="0">
+<link rel="shortcut icon" href="https://vitabella-plainfield.foodtecsolutions.com:9443/webfile?name=favicon.ico" type="image/vnd.microsoft.icon">
+<title>Your Account, Vita Bella</title>
+
+<!--[if lt IE 7]>
+<script language="JavaScript">
+function correctPNG() // correctly handle PNG transparency in Win IE 5.5 & 6.
+{
+   var arVersion = navigator.appVersion.split("MSIE")
+   var version = parseFloat(arVersion[1])
+   if ((version >= 5.5) && (document.body.filters)) 
+   {
+      for(var i=0; i<document.images.length; i++)
+      {
+         var img = document.images[i]
+         var imgName = img.src.toUpperCase()
+         if (imgName.substring(imgName.length-3, imgName.length) == "PNG")
+         {
+            var imgID = (img.id) ? "id='" + img.id + "' " : ""
+            var imgClass = (img.className) ? "class='" + img.className + "' " : ""
+            var imgTitle = (img.title) ? "title='" + img.title + "' " : "title='" + img.alt + "' "
+            var imgStyle = "display:inline-block;" + img.style.cssText 
+            if (img.align == "left") imgStyle = "float:left;" + imgStyle
+            if (img.align == "right") imgStyle = "float:right;" + imgStyle
+            if (img.parentElement.href) imgStyle = "cursor:hand;" + imgStyle
+            var strNewHTML = "<span " + imgID + imgClass + imgTitle
+            + " style=\"" + "width:" + img.width + "px; height:" + img.height + "px;" + imgStyle + ";"
+            + "filter:progid:DXImageTransform.Microsoft.AlphaImageLoader"
+            + "(src=\'" + img.src + "\', sizingMethod='scale');\"></span>" 
+            img.outerHTML = strNewHTML
+            i = i-1
+         }
+      }
+   }    
+}
+window.attachEvent("onload", correctPNG);
+</script>
+<![endif]-->
+<link href="./account_files/font-awesome.css" rel="stylesheet">
+<link rel="stylesheet" href="./account_files/webfile">
+
+<style type="text/css" media="screen, projection">
+<!--
+  @import url('/generated.css?hash=1518510998000200');
+-->
+</style>
+<script src="./account_files/require.js.download" type="text/javascript"></script>
+<script type="text/javascript">
+ requirejs.config({        baseUrl: '/webapps',        paths: {         underscore: 'commons/libs/underscore',         select2: 'commons/libs/select2-4.0.0/dist/js/select2.full',         select2CSS: 'commons/libs/select2-4.0.0/dist/css/select2.min',         EventEmitter: 'commons/libs/EventEmitter',         q: 'commons/libs/q',         'websocket-factory': 'commons/libs/websocket-factory'        },            map:{          	'*': {          	       'css': 'commons/libs/css',                       'text': 'commons/libs/text'                      }               }  });
+</script>
+<script src="./account_files/webfile(1)"></script>
+<script src="./account_files/webfile(2)" type="text/javascript"></script>
+<script src="./account_files/moment.min.js.download" type="text/javascript"></script>
+<script>$(document).ready(function() {setupEmailAutocompletion();});</script>
+<script>$(document).ready(function() {setupLoyaltyCellPhoneVisibility();});</script></head>
+<body onload="hasInner();" onbeforeunload="onUnload();">
+
+<div id="bodyContainer">
+<div id="upper-bar-component">
+<div id="upper-bar-component-inner">
+<a href="https://vitabella-plainfield.foodtecsolutions.com:9443/account">Jared</a>, you are ordering from 
+<h1 class="margin-zero font-size-1em display-inline">
+<span class="current-store-name">Vita Bella, </span>
+<span class="current-store-address">2215 State Route 59 </span>
+</h1>
+<span class="current-store-phone">815-254-2424</span>
+
+<a id="toggle-favorite-store-link" class="left-bordered">Change location</a>
+<a href="https://vitabella-plainfield.foodtecsolutions.com:9443/login.action?action=Logout" class="left-bordered">Logout</a><div id="change-store-header-container" style="">
+<span>Change location to </span>
+<select id="store-states" favorite-store-state="">
+<option value="">--</option>
+<option value="IL">IL</option>
+</select>
+<select id="store-addresses" class="store-addresses" favorite-store-id="" current-store-id="1080">
+<option value="">--</option>
+<option value="1176" state="IL" store="Vita Bella - North">Vita Bella - North - Plainfield 12443 S State Route 59</option>
+<option value="1080" state="IL" store="Vita Bella - South">Vita Bella - South - Plainfield 2215 State Route 59</option>
+</select>
+<div id="favorite-store-buttonButtonDiv"><button class="form_button jq_button ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" type="button" id="favorite-store-button" name="Go" value="Go" role="button" aria-disabled="false" disabled=""><span class="ui-button-text">Go</span></button><div class="clearFix"></div></div>
+<input id="remember-favorite-store" type="checkbox" checked=""><label for="remember-favorite-store">Remember my choice</label>
+</div>
+</div></div>
+<form id="ChangeFavoriteStore" name="ChangeFavoriteStore" novalidate="" action="https://vitabella-plainfield.foodtecsolutions.com:9443/store.action" method="POST">
+<input type="hidden" name="FoodTecNonce" value="iaS7BRPV/UNuu9zl">
+<input type="hidden" name="action" value="ChangeFavoriteStore">
+<input type="hidden" name="forward" value="/account">
+<input type="hidden" name="failure" value="/account">
+<input type="hidden" name="StoreId" value="">
+</form>
+<form id="ChangeAndRedirectToFavoriteStore" name="ChangeAndRedirectToFavoriteStore" novalidate="" action="https://vitabella-plainfield.foodtecsolutions.com:9443/store.action" method="POST">
+<input type="hidden" name="FoodTecNonce" value="iaS7BRPV/UNuu9zl">
+<input type="hidden" name="action" value="ChangeAndRedirectToFavoriteStore">
+<input type="hidden" name="forward" value="/account">
+<input type="hidden" name="failure" value="/account">
+<input type="hidden" name="StoreId" value="">
+<input type="hidden" name="RememberFavoriteStore" value="">
+</form>
+<script>$(document).ready(function() {initFavoriteStoreChanging();});</script>
+<div id="pageContainer" style="width:900px;">
+<div class="header" style="width: 100%;">
+<div class="siteLogo">
+<a href="http://www.vitabellapizza.com/">
+<img src="./account_files/webfile(3)" alt="Vita Bella" style="border: 0 px">
+</a>
+<div class="clearFix"></div></div>
+<div class="featuredItemsAreaTop">
+<div class="clearFix"></div>
+</div>
+<div class="headerRightArea"><p style=" background: inherit; color: inherit;" class="smallAddress">
+<b>Vita Bella</b><br>2215 State Route 59<br><b>815-254-2424</b></p>
+<div class="clearFix"></div></div>
+<div class="clearFix"></div></div>
+<div class="topTabBar" style="width:900px;">
+<h2 id="menuHeader" class="font-weight-normal font-size-1em margin-zero" style="float:right;"><a class="menu-tab aTab " style="float: left;" href="https://vitabella-plainfield.foodtecsolutions.com:9443/menu">Menu</a><a class="orders-tab aTab " style="float: left;" href="https://vitabella-plainfield.foodtecsolutions.com:9443/orders">My Orders</a><a class="loyalty-tab aTab " style="float: left;" href="https://vitabella-plainfield.foodtecsolutions.com:9443/loyalty?LoyaltyPlanName=Vita+Bella+Rewards">Vita Bella Rewards</a><a class="account-tab aTab  aTabSelected account-tab-selected" style="float: left;" href="https://vitabella-plainfield.foodtecsolutions.com:9443/account">My Account</a><a class="help-tab aTab " style="float: left;" href="https://vitabella-plainfield.foodtecsolutions.com:9443/help">Help</a></h2><div class="clearFix"></div></div>
+<div id="centerContainer" style="width:900px;">
+<noscript><div class='errorDiv ui-state-error'><table width='100%'><tr><td rowspan='2' align='center'><img src="/webfile?name=error.png&hash=1496324698000" alt="" /><td><div class='infoNoteTitle'>Check the following</div><tr><td>You need to have JavaScript enabled to use this page.</table></div></noscript><script>var error = '\x3cdiv class\x3d\x27errorDiv ui-state-error\x27\x3e\x3ctable width\x3d\x27100\x25\x27\x3e\x3ctr\x3e\x3ctd rowspan\x3d\x272\x27 align\x3d\x27center\x27\x3e\x3cimg src\x3d\x22\x2fwebfile\x3fname\x3derror\x2epng\x26hash\x3d1496324698000\x22 alt\x3d\x22\x22 \x2f\x3e\x3ctd\x3e\x3cdiv class\x3d\x27infoNoteTitle\x27\x3eCheck the following\x3c\x2fdiv\x3e\x3ctr\x3e\x3ctd\x3eYou need to have Cookies enabled to use this page\x2e\x3c\x2ftable\x3e\x3c\x2fdiv\x3e';function isCookieEnable() {    var name = 'mockup_cookie';    document.cookie = name;    if(document.cookie.indexOf(name) == -1)        return false;    else if (!navigator.cookieEnabled)        return false;    return true;}if(!isCookieEnable()) {    document.write(error);}</script><script type="text/JavaScript">var enableSetSelectionRangeBugWorkaround = false</script>
+<script src="./account_files/webfile(4)"></script>
+<div class="CenterPageContent">
+<h3 class="subHeadingTitle font-size-1em">Your Account</h3>
+<div class="clearNote">Your account details are kept secure and private. We will never share your email information.
+</div>
+<h3 class="subHeadingTitle font-size-1em"><a name="AddressBook"></a>Manage your address book</h3>
+<div class="clearNote">
+<div id="customer-address-container">
+<div id="Args">
+<input type="hidden" name="Editable" value="true">
+<input type="hidden" name="Selectable" value="false">
+<input type="hidden" name="Deletable" value="true">
+<input type="hidden" name="IsMobile" value="false">
+</div>
+<div class="note">You have no saved addresses, 
+<a href="https://vitabella-plainfield.foodtecsolutions.com:9443/account" onclick="editWebCustAddress(&quot;/editCustAddress&quot;); return false;">create one now.</a></div>
+<div class="clearFix"></div>
+</div>
+<div class="clearFix"></div></div>
+<h3 class="subHeadingTitle font-size-1em"><a name="CCWallet"></a>Manage your wallet</h3>
+<div class="clearNote">
+<div class="wallet-links-container">
+<div class="note">You have no saved credit cards. 
+<a href="https://vitabella-plainfield.foodtecsolutions.com:9443/account#" id="customer-wallet-newLink" class="link wallet-link" dialogwidth="" dialogreturnpath="/account">create one now</a></div>
+</div>
+<script>$(document).ready(function() {setupCreateCreditCard("/editCreditCard?returnPath=/account");});</script>
+<script>$(document).on("pageshow", "div", function(event, ui) { equalHeight("", "credit-cards", "generic-item-container"); });</script>
+<div class="clearFix"></div></div>
+<h3 class="subHeadingTitle font-size-1em">Change your name</h3>
+<div class="clearNote">Update your account name.
+<form id="ChangeName" name="ChangeName" novalidate="" action="https://vitabella-plainfield.foodtecsolutions.com:9443/account.action" method="POST">
+<input type="hidden" name="FoodTecNonce" value="iaS7BRPV/UNuu9zl">
+<input type="hidden" name="action" value="ChangeName">
+<input type="hidden" name="forward" value="/account">
+<input type="hidden" name="forward" value="/account">
+<input type="hidden" name="failure" value="/account">
+<div id="FirstNameField" class="form_field"><div id="FirstNameLabel" class="form_field_label"><label for="FirstName"><b>Name*</b>: </label></div><div id="FirstNameValue" class="form_field_value"><input id="FirstName" class="ui-corner-all req " type="text" name="FirstName" value="Jared Mcvey" maxlength="45">
+</div>
+<div id="infoFirstName" class="form_field_info">Enter a new name</div><div class="clearFix"></div></div>
+<div id="ChangeNameButtonDiv"><button class="form_button jq_button ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" type="submit" id="ChangeName" name="Change Name" value="submit" role="button" aria-disabled="false"><span class="ui-button-text">Change Name</span></button><div class="clearFix"></div></div>
+</form>
+<div class="clearFix"></div></div>
+<h3 class="subHeadingTitle font-size-1em">Set your password</h3>
+<div class="clearNote">Set your password, keep it something memorable.
+<form id="ChangePassword" name="ChangePassword" novalidate="" action="https://vitabella-plainfield.foodtecsolutions.com:9443/account.action" method="POST">
+<input type="hidden" name="FoodTecNonce" value="iaS7BRPV/UNuu9zl">
+<input type="hidden" name="action" value="ChangePassword">
+<input type="hidden" name="forward" value="/account">
+<input type="hidden" name="failure" value="/account">
+<div id="NewPasswordField" class="form_field"><div id="NewPasswordLabel" class="form_field_label"><label for="NewPassword">New Password: </label></div><div id="NewPasswordValue" class="form_field_value"><input id="NewPassword" class="ui-corner-all " type="password" name="NewPassword" value="">
+</div>
+<div id="infoNewPassword" class="form_field_info">Choose a new password</div><div class="clearFix"></div></div>
+<div id="ConfirmNewPasswordField" class="form_field"><div id="ConfirmNewPasswordLabel" class="form_field_label"><label for="ConfirmNewPassword">Confirm new password: </label></div><div id="ConfirmNewPasswordValue" class="form_field_value"><input id="ConfirmNewPassword" class="ui-corner-all " type="password" name="ConfirmNewPassword" value="">
+</div>
+<div id="infoConfirmNewPassword" class="form_field_info">Confirm new password</div><div class="clearFix"></div></div>
+<div id="ChangePwdButtonDiv"><button class="form_button jq_button ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" type="submit" id="ChangePwd" name="Set Password" value="submit" role="button" aria-disabled="false"><span class="ui-button-text">Set Password</span></button><div class="clearFix"></div></div>
+</form>
+<div class="clearFix"></div></div>
+<h3 class="subHeadingTitle font-size-1em">Change your Phone Number</h3>
+<div class="clearNote">Update the phone number we can contact you on.
+<form id="ChangePhone" name="ChangePhone" novalidate="" action="https://vitabella-plainfield.foodtecsolutions.com:9443/account.action" method="POST">
+<input type="hidden" name="FoodTecNonce" value="iaS7BRPV/UNuu9zl">
+<input type="hidden" name="action" value="ChangePhone">
+<input type="hidden" name="forward" value="/account">
+<input type="hidden" name="failure" value="/account">
+<script>$(document).ready(function() {$('#Phone').mask("999-999-9999");});</script>
+<div id="PhoneField" class="form_field"><div id="PhoneLabel" class="form_field_label"><label for="Phone"><b>Phone*</b>: </label></div><div id="PhoneValue" class="form_field_value"><input id="Phone" class="ui-corner-all req " type="tel" name="Phone" value="123-456-7778" size="13">
+</div>
+<div id="infoPhone" class="form_field_info">The store may use this phone number to call you</div><div class="clearFix"></div></div>
+<div id="ChangePhoneButtonDiv"><button class="form_button jq_button ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" type="submit" id="ChangePhone" name="Change Phone" value="submit" role="button" aria-disabled="false"><span class="ui-button-text">Change Phone</span></button><div class="clearFix"></div></div>
+</form>
+<div class="clearFix"></div></div>
+<h3 class="subHeadingTitle font-size-1em">Subscription</h3>
+<div class="clearNote">We will never share or sell your details, we will only contact you regarding our announcements.
+<form id="AlterSubscription" name="AlterSubscription" novalidate="" action="https://vitabella-plainfield.foodtecsolutions.com:9443/account.action" method="POST">
+<input type="hidden" name="FoodTecNonce" value="iaS7BRPV/UNuu9zl">
+<input type="hidden" name="action" value="AlterSubscription">
+<input type="hidden" name="forward" value="/account">
+<input type="hidden" name="failure" value="/account">
+<div id="CanEmailField" class="form_field"><div id="CanEmailLabel" class="form_field_label"><label for="CanEmail">Can we send you occasional announcements?: </label></div><div id="CanEmailValue" class="form_field_value"><input type="radio" id="CanEmailyes" name="CanEmail" value="yes">
+<label for="CanEmailyes">Yes</label>
+<input type="radio" id="CanEmailno" name="CanEmail" value="no" checked="true">
+<label for="CanEmailno">No</label>
+</div>
+<div class="clearFix"></div></div>
+<div id="SubscriptionButtonDiv"><button class="form_button jq_button ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" type="submit" id="Subscription" name="Update email choice" value="submit" role="button" aria-disabled="false"><span class="ui-button-text">Update email choice</span></button><div class="clearFix"></div></div>
+</form>
+<div class="clearFix"></div></div>
+<div id="loyalty-subscription-container">
+<h3 class="subHeadingTitle font-size-1em">Loyalty Subscription</h3>
+<div class="clearNote">
+<form id="AlterLoyaltySubscription" name="AlterLoyaltySubscription" novalidate="" action="https://vitabella-plainfield.foodtecsolutions.com:9443/account.action" method="POST">
+<input type="hidden" name="FoodTecNonce" value="iaS7BRPV/UNuu9zl">
+<input type="hidden" name="action" value="AlterLoyaltySubscription">
+<input type="hidden" name="forward" value="/account">
+<input type="hidden" name="failure" value="/account">
+<div id="NewAwardGrantedEmailField" class="form_field"><div id="NewAwardGrantedEmailLabel" class="form_field_label"><label for="NewAwardGrantedEmail">Can we send you an email when a new award is granted?: </label></div><div id="NewAwardGrantedEmailValue" class="form_field_value"><input type="radio" id="NewAwardGrantedEmailyes" name="NewAwardGrantedEmail" value="yes" checked="true">
+<label for="NewAwardGrantedEmailyes">Yes</label>
+<input type="radio" id="NewAwardGrantedEmailno" name="NewAwardGrantedEmail" value="no">
+<label for="NewAwardGrantedEmailno">No</label>
+</div>
+<div class="clearFix"></div></div>
+<div id="CouponExpirationChangedEmailField" class="form_field"><div id="CouponExpirationChangedEmailLabel" class="form_field_label"><label for="CouponExpirationChangedEmail">Can we send you an email when a coupon expiration is changed?: </label></div><div id="CouponExpirationChangedEmailValue" class="form_field_value"><input type="radio" id="CouponExpirationChangedEmailyes" name="CouponExpirationChangedEmail" value="yes" checked="true">
+<label for="CouponExpirationChangedEmailyes">Yes</label>
+<input type="radio" id="CouponExpirationChangedEmailno" name="CouponExpirationChangedEmail" value="no">
+<label for="CouponExpirationChangedEmailno">No</label>
+</div>
+<div class="clearFix"></div></div>
+<div id="AcceptCloseToAwardEmailField" class="form_field"><div id="AcceptCloseToAwardEmailLabel" class="form_field_label"><label for="AcceptCloseToAwardEmail">Can we send you email when you are close to an award?: </label></div><div id="AcceptCloseToAwardEmailValue" class="form_field_value"><input type="radio" id="AcceptCloseToAwardEmailyes" name="AcceptCloseToAwardEmail" value="yes" checked="true">
+<label for="AcceptCloseToAwardEmailyes">Yes</label>
+<input type="radio" id="AcceptCloseToAwardEmailno" name="AcceptCloseToAwardEmail" value="no">
+<label for="AcceptCloseToAwardEmailno">No</label>
+</div>
+<div class="clearFix"></div></div>
+<div id="AcceptCouponExpirationReminderEmailField" class="form_field"><div id="AcceptCouponExpirationReminderEmailLabel" class="form_field_label"><label for="AcceptCouponExpirationReminderEmail">Can we send you email when a coupon is about to expire?: </label></div><div id="AcceptCouponExpirationReminderEmailValue" class="form_field_value"><input type="radio" id="AcceptCouponExpirationReminderEmailyes" name="AcceptCouponExpirationReminderEmail" value="yes" checked="true">
+<label for="AcceptCouponExpirationReminderEmailyes">Yes</label>
+<input type="radio" id="AcceptCouponExpirationReminderEmailno" name="AcceptCouponExpirationReminderEmail" value="no">
+<label for="AcceptCouponExpirationReminderEmailno">No</label>
+</div>
+<div class="clearFix"></div></div>
+<div id="LoyaltySubscriptionButtonDiv"><button class="form_button jq_button ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" type="submit" id="LoyaltySubscription" name="Update email choice" value="submit" role="button" aria-disabled="false"><span class="ui-button-text">Update email choice</span></button><div class="clearFix"></div></div>
+</form>
+<div class="clearFix"></div></div>
+</div>
+<h3 class="subHeadingTitle font-size-1em">Delete your account</h3>
+<div class="clearNote">In order to delete your entire account
+<a href="javascript:deleteAccount()" class="delete-account-btn"> click here</a>
+<div class="clearFix"></div></div>
+<div class="clearFix"></div></div>
+
+<div class="clearFix"></div></div>
+<div id="footerArea" style="position:relative;width:900px;"> 
+<table width="100%" cellspacing="0" cellpadding="0" border="0" align="center">
+<tbody><tr valign="top"><td width="100%" class="footer">
+<h4 id="accepted-payment-types" class="margin-zero">
+<span>Pay online with </span>
+<span class="accepted-payment-type">Cash</span>
+or
+<span class="accepted-payment-type">Credit Card</span>
+<img src="./account_files/webfile(5)" alt="Amex" width="32"><img src="./account_files/webfile(6)" alt="Discover" width="32"><img src="./account_files/webfile(7)" alt="MasterCard" width="32"><img src="./account_files/webfile(8)" alt="Visa" width="32"></h4>
+</td></tr>
+<tr valign="top"><td width="100%" class="footer">
+<div id="footer-left-container">
+<a rel="nofollow" href="http://www.foodtecsolutions.com/"><img src="./account_files/webfile(9)" alt="Powered by FoodTec Solutions" style="border: 0 px"></a>
+<div id="feedback-container">Feedback about: <span id="food-feedback"><a href="https://vitabella-plainfield.foodtecsolutions.com:9443/feedback">Food &amp; Service</a></span>
+ - <span id="website-feedback"><a href="https://vitabella-plainfield.foodtecsolutions.com:9443/experience">Website</a></span>
+</div>
+</div>
+<div id="footer-right-container">
+<div id="secure-image-wrapper"><a href="https://vitabella-plainfield.foodtecsolutions.com:9443/help"><img src="./account_files/webfile(10)" alt="Take a guided tour"></a><span id="secure-image"><a href="https://seal.godaddy.com/verifySeal?sealID=o0OMuNzWShqwOrNT4gYTV8krkgpG5qTe56czm4nK4Pn8IbPXfBnt5W" target="_blank"><img src="./account_files/webfile(11)" alt="100% Secure Site"></a><br>Click to verify.</span></div>
+</div>
+</td></tr>
+</tbody></table>
+</div>
+
+</div></div><div id="lbOverlay" style="display: none;"></div><div id="lbCenter" style="display: none;"><div id="lbImage"><div style="position: relative;"><a id="lbPrevLink" href="https://vitabella-plainfield.foodtecsolutions.com:9443/account#"></a><a id="lbNextLink" href="https://vitabella-plainfield.foodtecsolutions.com:9443/account#"></a></div></div></div><div id="lbBottomContainer" style="display: none;"><div id="lbBottom"><a id="lbCloseLink" href="https://vitabella-plainfield.foodtecsolutions.com:9443/account#"></a><div id="lbCaption"></div><div id="lbNumber"></div><div style="clear: both;"></div></div></div></body></html>

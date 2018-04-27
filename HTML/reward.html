@@ -1,0 +1,175 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!-- saved from url=(0097)https://vitabella-plainfield.foodtecsolutions.com:9443/loyalty?LoyaltyPlanName=Vita+Bella+Rewards -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="-1">
+<meta name="ROBOTS" content="NOINDEX,NOFOLLOW">
+<meta name="ROBOTS" content="NONE">
+<meta name="apple-itunes-app" content="app-id=">
+<meta name="ROBOTS" content="NOARCHIVE">
+<meta name="GOOGLEBOT" content="NOARCHIVE">
+<meta http-equiv="EXPIRES" content="0">
+<link rel="shortcut icon" href="https://vitabella-plainfield.foodtecsolutions.com:9443/webfile?name=favicon.ico" type="image/vnd.microsoft.icon">
+<title>Vita Bella Rewards, Vita Bella</title>
+
+<!--[if lt IE 7]>
+<script language="JavaScript">
+function correctPNG() // correctly handle PNG transparency in Win IE 5.5 & 6.
+{
+   var arVersion = navigator.appVersion.split("MSIE")
+   var version = parseFloat(arVersion[1])
+   if ((version >= 5.5) && (document.body.filters)) 
+   {
+      for(var i=0; i<document.images.length; i++)
+      {
+         var img = document.images[i]
+         var imgName = img.src.toUpperCase()
+         if (imgName.substring(imgName.length-3, imgName.length) == "PNG")
+         {
+            var imgID = (img.id) ? "id='" + img.id + "' " : ""
+            var imgClass = (img.className) ? "class='" + img.className + "' " : ""
+            var imgTitle = (img.title) ? "title='" + img.title + "' " : "title='" + img.alt + "' "
+            var imgStyle = "display:inline-block;" + img.style.cssText 
+            if (img.align == "left") imgStyle = "float:left;" + imgStyle
+            if (img.align == "right") imgStyle = "float:right;" + imgStyle
+            if (img.parentElement.href) imgStyle = "cursor:hand;" + imgStyle
+            var strNewHTML = "<span " + imgID + imgClass + imgTitle
+            + " style=\"" + "width:" + img.width + "px; height:" + img.height + "px;" + imgStyle + ";"
+            + "filter:progid:DXImageTransform.Microsoft.AlphaImageLoader"
+            + "(src=\'" + img.src + "\', sizingMethod='scale');\"></span>" 
+            img.outerHTML = strNewHTML
+            i = i-1
+         }
+      }
+   }    
+}
+window.attachEvent("onload", correctPNG);
+</script>
+<![endif]-->
+<link href="./rewards_files/font-awesome.css" rel="stylesheet">
+<link rel="stylesheet" href="./rewards_files/webfile">
+
+<style type="text/css" media="screen, projection">
+<!--
+  @import url('/generated.css?hash=1518510998000200');
+-->
+</style>
+<script src="./rewards_files/require.js.download" type="text/javascript"></script>
+<script type="text/javascript">
+ requirejs.config({        baseUrl: '/webapps',        paths: {         underscore: 'commons/libs/underscore',         select2: 'commons/libs/select2-4.0.0/dist/js/select2.full',         select2CSS: 'commons/libs/select2-4.0.0/dist/css/select2.min',         EventEmitter: 'commons/libs/EventEmitter',         q: 'commons/libs/q',         'websocket-factory': 'commons/libs/websocket-factory'        },            map:{          	'*': {          	       'css': 'commons/libs/css',                       'text': 'commons/libs/text'                      }               }  });
+</script>
+<script src="./rewards_files/webfile(1)"></script>
+<script src="./rewards_files/webfile(2)" type="text/javascript"></script>
+<script src="./rewards_files/moment.min.js.download" type="text/javascript"></script>
+<script>$(document).ready(function() {setupEmailAutocompletion();});</script>
+<script>$(document).ready(function() {setupLoyaltyCellPhoneVisibility();});</script></head>
+<body onload="hasInner();" onbeforeunload="onUnload();">
+
+<div id="bodyContainer">
+<div id="upper-bar-component">
+<div id="upper-bar-component-inner">
+<a href="https://vitabella-plainfield.foodtecsolutions.com:9443/account">Jared</a>, you are ordering from 
+<h1 class="margin-zero font-size-1em display-inline">
+<span class="current-store-name">Vita Bella, </span>
+<span class="current-store-address">2215 State Route 59 </span>
+</h1>
+<span class="current-store-phone">815-254-2424</span>
+
+<a id="toggle-favorite-store-link" class="left-bordered">Change location</a>
+<a href="https://vitabella-plainfield.foodtecsolutions.com:9443/login.action?action=Logout" class="left-bordered">Logout</a><div id="change-store-header-container" style="">
+<span>Change location to </span>
+<select id="store-states" favorite-store-state="">
+<option value="">--</option>
+<option value="IL">IL</option>
+</select>
+<select id="store-addresses" class="store-addresses" favorite-store-id="" current-store-id="1080">
+<option value="">--</option>
+<option value="1176" state="IL" store="Vita Bella - North">Vita Bella - North - Plainfield 12443 S State Route 59</option>
+<option value="1080" state="IL" store="Vita Bella - South">Vita Bella - South - Plainfield 2215 State Route 59</option>
+</select>
+<div id="favorite-store-buttonButtonDiv"><button class="form_button jq_button ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" type="button" id="favorite-store-button" name="Go" value="Go" role="button" aria-disabled="false" disabled=""><span class="ui-button-text">Go</span></button><div class="clearFix"></div></div>
+<input id="remember-favorite-store" type="checkbox" checked=""><label for="remember-favorite-store">Remember my choice</label>
+</div>
+</div></div>
+<form id="ChangeFavoriteStore" name="ChangeFavoriteStore" novalidate="" action="https://vitabella-plainfield.foodtecsolutions.com:9443/store.action" method="POST">
+<input type="hidden" name="FoodTecNonce" value="iaS7BRPV/UNuu9zl">
+<input type="hidden" name="action" value="ChangeFavoriteStore">
+<input type="hidden" name="forward" value="/loyalty">
+<input type="hidden" name="failure" value="/loyalty">
+<input type="hidden" name="StoreId" value="">
+</form>
+<form id="ChangeAndRedirectToFavoriteStore" name="ChangeAndRedirectToFavoriteStore" novalidate="" action="https://vitabella-plainfield.foodtecsolutions.com:9443/store.action" method="POST">
+<input type="hidden" name="FoodTecNonce" value="iaS7BRPV/UNuu9zl">
+<input type="hidden" name="action" value="ChangeAndRedirectToFavoriteStore">
+<input type="hidden" name="forward" value="/loyalty">
+<input type="hidden" name="failure" value="/loyalty">
+<input type="hidden" name="StoreId" value="">
+<input type="hidden" name="RememberFavoriteStore" value="">
+</form>
+<script>$(document).ready(function() {initFavoriteStoreChanging();});</script>
+<div id="pageContainer" style="width:900px;">
+<div class="header" style="width: 100%;">
+<div class="siteLogo">
+<a href="http://www.vitabellapizza.com/">
+<img src="./rewards_files/webfile(3)" alt="Vita Bella" style="border: 0 px">
+</a>
+<div class="clearFix"></div></div>
+<div class="featuredItemsAreaTop">
+<div class="clearFix"></div>
+</div>
+<div class="headerRightArea"><p style=" background: inherit; color: inherit;" class="smallAddress">
+<b>Vita Bella</b><br>2215 State Route 59<br><b>815-254-2424</b></p>
+<div class="clearFix"></div></div>
+<div class="clearFix"></div></div>
+<div class="topTabBar" style="width:900px;">
+<h2 id="menuHeader" class="font-weight-normal font-size-1em margin-zero" style="float:right;"><a class="menu-tab aTab " style="float: left;" href="https://vitabella-plainfield.foodtecsolutions.com:9443/menu">Menu</a><a class="orders-tab aTab " style="float: left;" href="https://vitabella-plainfield.foodtecsolutions.com:9443/orders">My Orders</a><a class="loyalty-tab aTab  aTabSelected loyalty-tab-selected" style="float: left;" href="https://vitabella-plainfield.foodtecsolutions.com:9443/loyalty?LoyaltyPlanName=Vita+Bella+Rewards">Vita Bella Rewards</a><a class="account-tab aTab " style="float: left;" href="https://vitabella-plainfield.foodtecsolutions.com:9443/account">My Account</a><a class="help-tab aTab " style="float: left;" href="https://vitabella-plainfield.foodtecsolutions.com:9443/help">Help</a></h2><div class="clearFix"></div></div>
+<div id="centerContainer" style="width:900px;">
+<noscript><div class='errorDiv ui-state-error'><table width='100%'><tr><td rowspan='2' align='center'><img src="/webfile?name=error.png&hash=1496324698000" alt="" /><td><div class='infoNoteTitle'>Check the following</div><tr><td>You need to have JavaScript enabled to use this page.</table></div></noscript><script>var error = '\x3cdiv class\x3d\x27errorDiv ui-state-error\x27\x3e\x3ctable width\x3d\x27100\x25\x27\x3e\x3ctr\x3e\x3ctd rowspan\x3d\x272\x27 align\x3d\x27center\x27\x3e\x3cimg src\x3d\x22\x2fwebfile\x3fname\x3derror\x2epng\x26hash\x3d1496324698000\x22 alt\x3d\x22\x22 \x2f\x3e\x3ctd\x3e\x3cdiv class\x3d\x27infoNoteTitle\x27\x3eCheck the following\x3c\x2fdiv\x3e\x3ctr\x3e\x3ctd\x3eYou need to have Cookies enabled to use this page\x2e\x3c\x2ftable\x3e\x3c\x2fdiv\x3e';function isCookieEnable() {    var name = 'mockup_cookie';    document.cookie = name;    if(document.cookie.indexOf(name) == -1)        return false;    else if (!navigator.cookieEnabled)        return false;    return true;}if(!isCookieEnable()) {    document.write(error);}</script><script type="text/JavaScript">var enableSetSelectionRangeBugWorkaround = false</script>
+<script src="./rewards_files/webfile(4)"></script>
+<div class="centerColumnArea" style="width:620px;"><table width="620px;" cellspacing="0" cellpadding="0" border="0">
+<tbody><tr><td>
+<div class="clearFix"></div>
+<div id="loyalty-badges-section">
+<h3 class=" font-weight-normal margin-zero simpleHeader">Loyalty Badges</h3>
+<div class="clearNote"><div id="loyalty-badges-container"></div></div></div>
+<script>$(document).ready(function() {FTS2.loyaltyBadges.initialize();});</script>
+<div class="clearFix">&nbsp;</div><h3 class=" font-weight-normal margin-zero simpleHeader">Points summary</h3><div class="clearNote"><center><table><tbody><tr><td>Member Since:</td><td>04/26/2018</td></tr><tr><td>Total Points:</td><td class="pointsCell">+50</td></tr><tr><td>Lifetime Points:</td><td class="pointsCell">50</td></tr></tbody></table></center><div id="customer-summary-loyalty-link-container"><img src="./rewards_files/webfile(5)" alt="" class="loyalty-icon"><a class="loyalty-description-link" href="javascript: toggleLoyaltyPlanDescription();">Vita Bella Rewards description</a></div>
+</div><form id="AddCouponCode" name="AddCouponCode" novalidate="" action="https://vitabella-plainfield.foodtecsolutions.com:9443/addcoupon.action" method="POST">
+<input type="hidden" name="FoodTecNonce" value="iaS7BRPV/UNuu9zl">
+<input type="hidden" name="action" value="AddCouponCode">
+<input type="hidden" name="forward" value="/menu">
+<input type="hidden" name="failure" value="/loyalty">
+<input type="hidden" name="CouponCode" value="">
+<input type="hidden" name="RememberIncomplete" value="">
+<input type="hidden" name="IsOptional" value="false">
+</form>
+<div class="clearFix">&nbsp;</div><h3 class=" font-weight-normal margin-zero simpleHeader">Your recent history (30 days)</h3><div class="clearNote"><div class="pointHistotyTable"><table><tbody><tr class="pointHistoryLine"><td colspan="4">4/26/18 7:13 pm</td></tr><tr class="pointHistoryLine"><td>&nbsp;</td><td>Other Transactions</td><td>SignUp Bonus</td><td class="pointsCell">+50</td></tr></tbody></table></div><div class="smallNote">Please note: The processing of your  Vita Bella Rewards points can take up to 24 hours. </div></div></td></tr>
+</tbody></table></div>
+
+<div class="clearFix"></div></div>
+<div id="footerArea" style="position:relative;width:900px;"> 
+<table width="100%" cellspacing="0" cellpadding="0" border="0" align="center">
+<tbody><tr valign="top"><td width="100%" class="footer">
+<h4 id="accepted-payment-types" class="margin-zero">
+<span>Pay online with </span>
+<span class="accepted-payment-type">Cash</span>
+or
+<span class="accepted-payment-type">Credit Card</span>
+<img src="./rewards_files/webfile(6)" alt="Amex" width="32"><img src="./rewards_files/webfile(7)" alt="Discover" width="32"><img src="./rewards_files/webfile(8)" alt="MasterCard" width="32"><img src="./rewards_files/webfile(9)" alt="Visa" width="32"></h4>
+</td></tr>
+<tr valign="top"><td width="100%" class="footer">
+<div id="footer-left-container">
+<a rel="nofollow" href="http://www.foodtecsolutions.com/"><img src="./rewards_files/webfile(10)" alt="Powered by FoodTec Solutions" style="border: 0 px"></a>
+<div id="feedback-container">Feedback about: <span id="food-feedback"><a href="https://vitabella-plainfield.foodtecsolutions.com:9443/feedback">Food &amp; Service</a></span>
+ - <span id="website-feedback"><a href="https://vitabella-plainfield.foodtecsolutions.com:9443/experience">Website</a></span>
+</div>
+</div>
+<div id="footer-right-container">
+<div id="secure-image-wrapper"><a href="https://vitabella-plainfield.foodtecsolutions.com:9443/help"><img src="./rewards_files/webfile(11)" alt="Take a guided tour"></a><span id="secure-image"><a href="https://seal.godaddy.com/verifySeal?sealID=o0OMuNzWShqwOrNT4gYTV8krkgpG5qTe56czm4nK4Pn8IbPXfBnt5W" target="_blank"><img src="./rewards_files/webfile(12)" alt="100% Secure Site"></a><br>Click to verify.</span></div>
+</div>
+</td></tr>
+</tbody></table>
+</div>
+
+</div></div><div id="lbOverlay" style="display: none;"></div><div id="lbCenter" style="display: none;"><div id="lbImage"><div style="position: relative;"><a id="lbPrevLink" href="https://vitabella-plainfield.foodtecsolutions.com:9443/loyalty?LoyaltyPlanName=Vita+Bella+Rewards#"></a><a id="lbNextLink" href="https://vitabella-plainfield.foodtecsolutions.com:9443/loyalty?LoyaltyPlanName=Vita+Bella+Rewards#"></a></div></div></div><div id="lbBottomContainer" style="display: none;"><div id="lbBottom"><a id="lbCloseLink" href="https://vitabella-plainfield.foodtecsolutions.com:9443/loyalty?LoyaltyPlanName=Vita+Bella+Rewards#"></a><div id="lbCaption"></div><div id="lbNumber"></div><div style="clear: both;"></div></div></div></body></html>

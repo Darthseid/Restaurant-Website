@@ -1,0 +1,277 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!-- saved from url=(0059)https://vitabella-plainfield.foodtecsolutions.com:9443/help -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="-1">
+<meta name="ROBOTS" content="NOINDEX,NOFOLLOW">
+<meta name="ROBOTS" content="NONE">
+<meta name="apple-itunes-app" content="app-id=">
+<meta name="ROBOTS" content="NOARCHIVE">
+<meta name="GOOGLEBOT" content="NOARCHIVE">
+<meta http-equiv="EXPIRES" content="0">
+<link rel="shortcut icon" href="https://vitabella-plainfield.foodtecsolutions.com:9443/webfile?name=favicon.ico" type="image/vnd.microsoft.icon">
+<title>Help, Vita Bella</title>
+
+<!--[if lt IE 7]>
+<script language="JavaScript">
+function correctPNG() // correctly handle PNG transparency in Win IE 5.5 & 6.
+{
+   var arVersion = navigator.appVersion.split("MSIE")
+   var version = parseFloat(arVersion[1])
+   if ((version >= 5.5) && (document.body.filters)) 
+   {
+      for(var i=0; i<document.images.length; i++)
+      {
+         var img = document.images[i]
+         var imgName = img.src.toUpperCase()
+         if (imgName.substring(imgName.length-3, imgName.length) == "PNG")
+         {
+            var imgID = (img.id) ? "id='" + img.id + "' " : ""
+            var imgClass = (img.className) ? "class='" + img.className + "' " : ""
+            var imgTitle = (img.title) ? "title='" + img.title + "' " : "title='" + img.alt + "' "
+            var imgStyle = "display:inline-block;" + img.style.cssText 
+            if (img.align == "left") imgStyle = "float:left;" + imgStyle
+            if (img.align == "right") imgStyle = "float:right;" + imgStyle
+            if (img.parentElement.href) imgStyle = "cursor:hand;" + imgStyle
+            var strNewHTML = "<span " + imgID + imgClass + imgTitle
+            + " style=\"" + "width:" + img.width + "px; height:" + img.height + "px;" + imgStyle + ";"
+            + "filter:progid:DXImageTransform.Microsoft.AlphaImageLoader"
+            + "(src=\'" + img.src + "\', sizingMethod='scale');\"></span>" 
+            img.outerHTML = strNewHTML
+            i = i-1
+         }
+      }
+   }    
+}
+window.attachEvent("onload", correctPNG);
+</script>
+<![endif]-->
+<link href="./help_files/font-awesome.css" rel="stylesheet">
+<link rel="stylesheet" href="./help_files/webfile">
+
+<style type="text/css" media="screen, projection">
+<!--
+  @import url('/generated.css?hash=1518510998000200');
+-->
+</style>
+<script src="./help_files/require.js.download" type="text/javascript"></script>
+<script type="text/javascript">
+ requirejs.config({        baseUrl: '/webapps',        paths: {         underscore: 'commons/libs/underscore',         select2: 'commons/libs/select2-4.0.0/dist/js/select2.full',         select2CSS: 'commons/libs/select2-4.0.0/dist/css/select2.min',         EventEmitter: 'commons/libs/EventEmitter',         q: 'commons/libs/q',         'websocket-factory': 'commons/libs/websocket-factory'        },            map:{          	'*': {          	       'css': 'commons/libs/css',                       'text': 'commons/libs/text'                      }               }  });
+</script>
+<script src="./help_files/webfile(1)"></script>
+<script src="./help_files/webfile(2)" type="text/javascript"></script>
+<script src="./help_files/moment.min.js.download" type="text/javascript"></script>
+<script>$(document).ready(function() {setupEmailAutocompletion();});</script>
+<script>$(document).ready(function() {setupLoyaltyCellPhoneVisibility();});</script></head>
+<body onload="hasInner();" onbeforeunload="onUnload();" class="siteowners" topmargin="3" alink="#ff0000" bgcolor="#ffffff" link="#0000cc" text="#000000" vlink="#800080">
+
+<div id="bodyContainer">
+<div id="upper-bar-component">
+<div id="upper-bar-component-inner">
+<a href="https://vitabella-plainfield.foodtecsolutions.com:9443/account">Jared</a>, you are ordering from 
+<h1 class="margin-zero font-size-1em display-inline">
+<span class="current-store-name">Vita Bella, </span>
+<span class="current-store-address">2215 State Route 59 </span>
+</h1>
+<span class="current-store-phone">815-254-2424</span>
+
+<a id="toggle-favorite-store-link" class="left-bordered">Change location</a>
+<a href="https://vitabella-plainfield.foodtecsolutions.com:9443/login.action?action=Logout" class="left-bordered">Logout</a><div id="change-store-header-container" style="">
+<span>Change location to </span>
+<select id="store-states" favorite-store-state="">
+<option value="">--</option>
+<option value="IL">IL</option>
+</select>
+<select id="store-addresses" class="store-addresses" favorite-store-id="" current-store-id="1080">
+<option value="">--</option>
+<option value="1176" state="IL" store="Vita Bella - North">Vita Bella - North - Plainfield 12443 S State Route 59</option>
+<option value="1080" state="IL" store="Vita Bella - South">Vita Bella - South - Plainfield 2215 State Route 59</option>
+</select>
+<div id="favorite-store-buttonButtonDiv"><button class="form_button jq_button ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" type="button" id="favorite-store-button" name="Go" value="Go" role="button" aria-disabled="false" disabled=""><span class="ui-button-text">Go</span></button><div class="clearFix"></div></div>
+<input id="remember-favorite-store" type="checkbox" checked=""><label for="remember-favorite-store">Remember my choice</label>
+</div>
+</div></div>
+<form id="ChangeFavoriteStore" name="ChangeFavoriteStore" novalidate="" action="https://vitabella-plainfield.foodtecsolutions.com:9443/store.action" method="POST">
+<input type="hidden" name="FoodTecNonce" value="iaS7BRPV/UNuu9zl">
+<input type="hidden" name="action" value="ChangeFavoriteStore">
+<input type="hidden" name="forward" value="/help">
+<input type="hidden" name="failure" value="/help">
+<input type="hidden" name="StoreId" value="">
+</form>
+<form id="ChangeAndRedirectToFavoriteStore" name="ChangeAndRedirectToFavoriteStore" novalidate="" action="https://vitabella-plainfield.foodtecsolutions.com:9443/store.action" method="POST">
+<input type="hidden" name="FoodTecNonce" value="iaS7BRPV/UNuu9zl">
+<input type="hidden" name="action" value="ChangeAndRedirectToFavoriteStore">
+<input type="hidden" name="forward" value="/help">
+<input type="hidden" name="failure" value="/help">
+<input type="hidden" name="StoreId" value="">
+<input type="hidden" name="RememberFavoriteStore" value="">
+</form>
+<script>$(document).ready(function() {initFavoriteStoreChanging();});</script>
+<div id="pageContainer" style="width:900px;">
+<div class="header" style="width: 100%;">
+<div class="siteLogo">
+<a href="http://www.vitabellapizza.com/">
+<img src="./help_files/webfile(3)" alt="Vita Bella" style="border: 0 px">
+</a>
+<div class="clearFix"></div></div>
+<div class="featuredItemsAreaTop">
+<div class="clearFix"></div>
+</div>
+<div class="headerRightArea"><p style=" background: inherit; color: inherit;" class="smallAddress">
+<b>Vita Bella</b><br>2215 State Route 59<br><b>815-254-2424</b></p>
+<div class="clearFix"></div></div>
+<div class="clearFix"></div></div>
+<div class="topTabBar" style="width:900px;">
+<h2 id="menuHeader" class="font-weight-normal font-size-1em margin-zero" style="float:right;"><a class="menu-tab aTab " style="float: left;" href="https://vitabella-plainfield.foodtecsolutions.com:9443/menu">Menu</a><a class="orders-tab aTab " style="float: left;" href="https://vitabella-plainfield.foodtecsolutions.com:9443/orders">My Orders</a><a class="loyalty-tab aTab " style="float: left;" href="https://vitabella-plainfield.foodtecsolutions.com:9443/loyalty?LoyaltyPlanName=Vita+Bella+Rewards">Vita Bella Rewards</a><a class="account-tab aTab " style="float: left;" href="https://vitabella-plainfield.foodtecsolutions.com:9443/account">My Account</a><a class="help-tab aTab  aTabSelected help-tab-selected" style="float: left;" href="https://vitabella-plainfield.foodtecsolutions.com:9443/help">Help</a></h2><div class="clearFix"></div></div>
+<div id="centerContainer" style="width:900px;">
+<noscript><div class='errorDiv ui-state-error'><table width='100%'><tr><td rowspan='2' align='center'><img src="/webfile?name=error.png&hash=1496324698000" alt="" /><td><div class='infoNoteTitle'>Check the following</div><tr><td>You need to have JavaScript enabled to use this page.</table></div></noscript><script>var error = '\x3cdiv class\x3d\x27errorDiv ui-state-error\x27\x3e\x3ctable width\x3d\x27100\x25\x27\x3e\x3ctr\x3e\x3ctd rowspan\x3d\x272\x27 align\x3d\x27center\x27\x3e\x3cimg src\x3d\x22\x2fwebfile\x3fname\x3derror\x2epng\x26hash\x3d1496324698000\x22 alt\x3d\x22\x22 \x2f\x3e\x3ctd\x3e\x3cdiv class\x3d\x27infoNoteTitle\x27\x3eCheck the following\x3c\x2fdiv\x3e\x3ctr\x3e\x3ctd\x3eYou need to have Cookies enabled to use this page\x2e\x3c\x2ftable\x3e\x3c\x2fdiv\x3e';function isCookieEnable() {    var name = 'mockup_cookie';    document.cookie = name;    if(document.cookie.indexOf(name) == -1)        return false;    else if (!navigator.cookieEnabled)        return false;    return true;}if(!isCookieEnable()) {    document.write(error);}</script><script type="text/JavaScript">var enableSetSelectionRangeBugWorkaround = false</script>
+<script src="./help_files/webfile(4)"></script>
+<div class="centerColumnArea" style="width:770px;"><table width="770px;" cellspacing="0" cellpadding="0" border="0">
+<tbody><tr><td width="770" class="whitePage">
+
+<title>Online Ordering Help</title>
+<style type="text/css">
+<!--
+      .thumb {border:1px solid #ADADAD;padding:2px;float:right;text-align:center;text-decoration:none;}
+      .thumbDisplayNone {width:175px;display:none;}
+      .thumb img, .thumbDisplayNone img {width:175px;}
+      .thumb span {font-size:11px;margin-top:10px;margin-bottom:-10px;display:block;}
+      .thumb:hover {border-color:#000000;}
+      .i { 
+       margin-left: 1em; margin-right: 1em;
+           }
+ .content .thumb {
+      margin-right: 10px; 
+      margin-bottom: 10px; 
+            }
+ .centerColumnArea .help-category-title, 
+ .centerColumnArea b {
+      padding-left: 10px; 
+            }
+ .centerColumnArea td,
+ .centerColumnArea font,
+ .centerColumnArea p,
+ .centerColumnArea a {
+      font-family:arial,sans-serif;
+            }
+      // -->
+</style>
+<table border="0" cellpadding="0" cellspacing="0" width="770">
+	<tbody><tr>
+		<td style="background-color: rgb(221, 173, 8);"><img alt="" height="1" width="1"></td>
+	</tr>
+</tbody></table>
+<table border="0" cellpadding="2" cellspacing="0" width="770">
+	<tbody><tr>
+		<td class="help-category-title" nowrap="nowrap"><a name="3"></a><h3>Online Ordering Help Questions</h3></td>
+	</tr>
+</tbody></table>
+<table border="0" cellpadding="0" cellspacing="0" width="770">
+  <tbody><tr> 
+    <td width="770"><div id="help" class="content"> <small>
+	<br>
+	<h4 class="help-page-subtitle">Placing an Order</h4><a class="thumb" title="Placing an Order (Step 1 of 3)" style="" href="https://vitabella-plainfield.foodtecsolutions.com:9443/webfile?name=web-ordering-help1.jpg" rel="lightbox-web-ordering"><img src="./help_files/webfile(5)" alt=""><span>Click here for further instructions</span><br></a><a class="thumbDisplayNone" title="Placing an Order (Step 2 of 3)" href="https://vitabella-plainfield.foodtecsolutions.com:9443/webfile?name=web-ordering-help2.jpg" rel="lightbox-web-ordering"><img src="./help_files/webfile(6)" alt=""></a><a class="thumbDisplayNone" title="Placing an Order (Step 3 of 3)" href="https://vitabella-plainfield.foodtecsolutions.com:9443/webfile?name=web-ordering-help3.jpg" rel="lightbox-web-ordering"><img src="./help_files/webfile(6)" alt=""></a>
+		</small><ol>
+		<li><small><a href="https://vitabella-plainfield.foodtecsolutions.com:9443/help#pickup">How can I place an order for Pickup?</a>
+		</small></li><li><small><a href="https://vitabella-plainfield.foodtecsolutions.com:9443/help#ordermore">How can I order more than one of something?</a>
+		</small></li><li><small><a href="https://vitabella-plainfield.foodtecsolutions.com:9443/help#halfs">I want onions only on one half!</a>
+		</small></li><li><small><a href="https://vitabella-plainfield.foodtecsolutions.com:9443/help#instructions">I like my food done a special way, how can I tell you?</a>
+		</small></li><li><small><a href="https://vitabella-plainfield.foodtecsolutions.com:9443/help#wherefood">How do I know when my order is ready?</a>
+		</small></li><li><small><a href="https://vitabella-plainfield.foodtecsolutions.com:9443/help#forgotorder">What if I forget something?</a>
+		</small></li></ol>
+<br><br><small>	<h4 class="help-page-subtitle">Checkout Questions<a href="https://vitabella-plainfield.foodtecsolutions.com:9443/help?tutorial=checkout"></a></h4><a class="thumb" title="Checkout Process (Step 1 of 3)" href="https://vitabella-plainfield.foodtecsolutions.com:9443/webfile?name=checkout-help1.jpg" rel="lightbox-checkout"><img src="./help_files/webfile(7)" alt=""><span>Click here for further instructions</span><br></a><a class="thumbDisplayNone" title="Checkout Process (Step 2 of 3)" href="https://vitabella-plainfield.foodtecsolutions.com:9443/webfile?name=checkout-help2.jpg" rel="lightbox-checkout"><img src="./help_files/webfile(8)" alt=""></a><a class="thumbDisplayNone" title="Checkout Process (Step 3 of 3)" href="https://vitabella-plainfield.foodtecsolutions.com:9443/webfile?name=checkout-help3.jpg" rel="lightbox-checkout"><img src="./help_files/webfile(9)" alt=""></a>
+		</small><ol>
+<small>		</small><li><small><a href="https://vitabella-plainfield.foodtecsolutions.com:9443/help#howpay">How do I pay?</a></small></li>
+<small>		</small><li><small><a href="https://vitabella-plainfield.foodtecsolutions.com:9443/help#worried">I am worried about buying online, is it safe?</a></small></li>
+<small>		</small><li><small><a href="https://vitabella-plainfield.foodtecsolutions.com:9443/help#wherego">Where will my order go?</a></small></li>
+<small>		</small></ol>
+<br><br><br><br><br><small>	<h4 class="help-page-subtitle">Registration Questions</h4><a class="thumb" title="Registration Process (Step 1 of 1)" href="https://vitabella-plainfield.foodtecsolutions.com:9443/webfile?name=register-help.jpg" rel="lightbox-register"><img src="./help_files/webfile(10)" alt=""><span>Click here for further instructions</span><br></a>
+		</small><ol>
+<small>		</small><li><small><a href="https://vitabella-plainfield.foodtecsolutions.com:9443/help#register">Why should I register?</a></small></li>
+<small>		</small><li><small><a href="https://vitabella-plainfield.foodtecsolutions.com:9443/help#moreaddress">Can I have more than one delivery address saved?</a></small></li>
+<small>		</small></ol>
+<small>        </small>
+<br><br><br><br><br><br><table border="0" cellpadding="2" cellspacing="0" width="770">
+	<tbody><tr>
+		<td class="help-category-title" nowrap="nowrap"><a name="3"></a><h3>Placing an Order</h3></td>
+	</tr>
+</tbody></table>
+        <font size="-1"><br></font>
+<p><font size="-1"></font></p><h4 class="help-category-title"><font size="-1"><a name="pickup"></a>1. How can I place an order for Pickup?</font></h4><font size="-1"> </font><p></p>
+<p class="i"><font size="-1"><a class="thumb" style="margin-right:25px;float:left;" href="https://vitabella-plainfield.foodtecsolutions.com:9443/webfile?name=question1.jpg" rel="lightbox-question1" title="How can I place an order for Pickup? You can choose how you would like to receive your order by selecting Delivery or Pickup on the right sidebar. Then choose the items you would like by selecting from the categories on the left sidebar. To put an item into your basket, click on the item&#39;s price.If you want to add or subtract ingredients from the item, and order two of the item with these same changes, click on the name of the item under Your Order on the right sidebar. This will open a page allowing you to customize the item ordered. At the top, you can set the quantity of the item you want. This allows you to customize a pizza how you like it, and order 2 exactly the same, quickly and easily."><img src="./help_files/webfile(11)" alt=""><span>Click here for further instructions</span><br></a>You can choose how you would like to receive your order by selecting <strong>Delivery</strong> or <strong>Pickup</strong> on the right sidebar. Then choose the items you would like by selecting from the categories on the left sidebar. To put an item into your basket, click on the item's price.<br>If you want to add or subtract ingredients from the item, and order two of the item with these same changes, click on the name of the item under <strong>Your Order</strong> on the right sidebar.  This will open a page allowing you to customize the item ordered. At the top, you can set the quantity of the item you want. This allows you to customize a pizza how you like it, and order 2 exactly the same, quickly and easily.</font></p><br>
+<p><font size="-1"></font></p><h4 class="help-category-title"><font size="-1"><a name="ordermore"></a>2. How can I order more than one of something?</font></h4><font size="-1"> </font><p></p>
+<p class="i"><font size="-1"><a class="thumb" style="margin-right:25px;float:left;" href="https://vitabella-plainfield.foodtecsolutions.com:9443/webfile?name=question2.jpg" rel="lightbox-question2" title="How can I order more than one of something? If you would like to order two of the same item without customizing the item, you can click on the item&#39;s price twice."><img src="./help_files/webfile(12)" alt=""><span>Click here for further instructions</span><br></a>If you would like to order two of the same item without customizing the item, you can click on the item's price twice.</font></p><br><br><br><br><br><br>
+<p><font size="-1"></font></p><h4 class="help-category-title"><font size="-1"><a name="halfs"></a>3. I want onions only on one half!</font></h4><font size="-1"> </font><p></p>
+<p class="i"><font size="-1"><a class="thumb" style="margin-right:25px;float:left;" href="https://vitabella-plainfield.foodtecsolutions.com:9443/webfile?name=question3.jpg" rel="lightbox-question3" title="I want onions only on one half! After selecting the item to order, click on the Customize button. If there are onions, or any ingredient you are interested in, on the item already, then you merely need to select which side of the pizza you only want them on, using the checkboxes next to the ingredient&#39;s name. If the item doesn&#39;t have the ingredient you would like, you can click directly on the left or right checkboxes to add that ingredient just to that side."><img src="./help_files/webfile(13)" alt=""><span>Click here for further instructions</span><br></a>After selecting the item to order, click on the <strong>Customize</strong> button. If there are onions, or any ingredient you are interested in, on the item already, then you merely need to select which side of the pizza you only want them on, using the checkboxes next to the ingredient's name. If the item doesn't have the ingredient you would like, you can click directly on the left or right checkboxes to add that ingredient just to that side. </font></p><br><br><br><br>
+<p><font size="-1"></font></p><h4 class="help-category-title"><font size="-1"><a name="instructions"></a>4. I like my food prepared in a certain way, how can I tell you?</font></h4><font size="-1"> </font><p></p>
+<p class="i"><font size="-1"><a class="thumb" style="margin-right:25px;float:left;" href="https://vitabella-plainfield.foodtecsolutions.com:9443/webfile?name=question4.jpg" rel="lightbox-question4" title="I like my food prepared in a certain way, how can I tell you? When you have added an item to your order, click the name of the item on the right. You will now see a screen with details of the ingredients on the item and other ingredients available. If the item allows it, there will be a Your Instructions box at the bottom of the screen for you to give some more information on how you like your order."><img src="./help_files/webfile(14)" alt=""><span>Click here for further instructions</span><br></a>When you have added an item to your order, click the name of the item on the right. You will now see a screen with details of the ingredients on the item and other ingredients available. If the item allows it, there will be a <strong>Your Instructions</strong> box at the bottom of the screen for you to give some more information on how you like your order.</font></p><br><br><br><br>
+<p><font size="-1"></font></p><h4 class="help-category-title"><font size="-1"><a name="wherefood"></a>5. How do I know when my order is ready?</font></h4><font size="-1"> </font><p></p>
+<p class="i"><font size="-1"><a class="thumb" style="margin-right:25px;float:left; " href="https://vitabella-plainfield.foodtecsolutions.com:9443/webfile?name=question5.jpg" rel="lightbox-question5" title="How do I know when my order is ready? If you have registered, after you have placed an order you can find out if your delivery is on its way by clicking My Orders from the top tabs."><img src="./help_files/webfile(15)" alt=""><span>Click here for further instructions</span><br></a>If you have registered, after you have placed an order you can find out if your delivery is on its way by clicking <strong>My Orders</strong> from the top tabs.</font></p><br><br><br><br><br><br><br>
+<p><font size="-1"></font></p><h4 class="help-category-title"><font size="-1"><a name="forgotorder"></a>6. What if I forget something?</font></h4><font size="-1"> </font><p></p>
+<p class="i"><font size="-1">If you forgot to order something, you should call the store and tell them your order number, which is given on the last page of checkout. You can quickly and easily add to your order.</font></p>
+<table border="0" cellpadding="0" cellspacing="0" width="770">
+	<tbody><tr>
+		<td style="background-color: rgb(221, 173, 8);"><img alt="" height="1" width="1"></td>
+	</tr>
+</tbody></table>
+<table border="0" cellpadding="2" cellspacing="0" width="770">
+	<tbody><tr>
+		<td class="help-category-title" nowrap="nowrap"><a name="3"></a><h3>Checkout Questions</h3></td>
+	</tr>
+</tbody></table>
+		<font size="-1"></font>
+<p><font size="-1"></font></p><h4 class="help-category-title"><font size="-1"><a name="howpay"></a>1. How do I pay?</font></h4><font size="-1"> </font><p></p>
+<p class="i"><font size="-1">Accepted payment methods are determined by each store. To pay by cash you may need to be a Registered customer or complete your first online order with a credit card. <br>Don't forget to tip your driver!</font></p>
+<p><font size="-1"></font></p><h4 class="help-category-title"><font size="-1"><a name="worried"></a>2. I am worried about buying online, is it safe?</font></h4><font size="-1"> </font><p></p>
+<p class="i"><img src="./help_files/webfile(16)" alt="100% Secure site"></p>
+<p class="i"><font size="-1">Our website is secured using the latest online shopping technology, so however you choose to pay, you can be sure that your personal information is safe.</font></p>
+<p><font size="-1"></font></p><h4 class="help-category-title"><font size="-1"><a name="wherego"></a>3. Where will my order go?</font></h4><font size="-1"> </font><p></p>
+<p class="i"><font size="-1">Your order will come directly to our store, exactly as if you had ordered it while you were standing here. Your information and details are kept safe with us, and nobody else has them.</font></p>
+<table border="0" cellpadding="0" cellspacing="0" width="770">
+	<tbody><tr>
+		<td style="background-color: rgb(221, 173, 8);"><img alt="" height="1" width="1"></td>
+	</tr>
+</tbody></table>
+<table border="0" cellpadding="2" cellspacing="0" width="770">
+	<tbody><tr>
+		<td class="help-category-title" nowrap="nowrap"><a name="3"></a><h3>Registration Questions</h3></td>
+	</tr>
+</tbody></table>
+		<font size="-1">	<br>
+<p><font size="-1"></font></p><h4 class="help-category-title"><font size="-1"><a name="register"></a>1. Why should I register?</font></h4><font size="-1"> </font><p></p>
+<p class="i"><font size="-1">By registering, you can save your address and payment information, as well as view your previous orders, allowing you to place your orders more easily.</font></p><br><br>
+<p><font size="-1"></font></p><h4 class="help-category-title"><font size="-1"><a name="moreaddress"></a>2. Can I have more than one delivery address saved?</font></h4><font size="-1"> </font><p></p>
+<p class="i"><font size="-1"><a class="thumb" style="margin-right:25px;float:left;" href="https://vitabella-plainfield.foodtecsolutions.com:9443/webfile?name=question11.jpg" rel="lightbox-question11" title="Can I have more than one delivery address saved? Yes, you can. You can save as many addresses as you like. Just go to the &quot;My Account&quot; page and use the &quot;Create a new Address&quot; button."><img src="./help_files/webfile(17)" alt=""><span>Click here for further instructions</span><br></a>Yes, you can. You can save as many addresses as you like. Just go to the "My Account" page and use the "Create a new Address" button.</font></p>
+      </font></div></td>
+  </tr>
+</tbody></table>
+</td>
+</tr></tbody></table></div>
+
+<div class="clearFix"></div></div>
+<div id="footerArea" style="position:relative;width:900px;"> 
+<table width="100%" cellspacing="0" cellpadding="0" border="0" align="center">
+<tbody><tr valign="top"><td width="100%" class="footer">
+<h4 id="accepted-payment-types" class="margin-zero">
+<span>Pay online with </span>
+<span class="accepted-payment-type">Cash</span>
+or
+<span class="accepted-payment-type">Credit Card</span>
+<img src="./help_files/webfile(18)" alt="Amex" width="32"><img src="./help_files/webfile(19)" alt="Discover" width="32"><img src="./help_files/webfile(20)" alt="MasterCard" width="32"><img src="./help_files/webfile(21)" alt="Visa" width="32"></h4>
+</td></tr>
+<tr valign="top"><td width="100%" class="footer">
+<div id="footer-left-container">
+<a rel="nofollow" href="http://www.foodtecsolutions.com/"><img src="./help_files/webfile(22)" alt="Powered by FoodTec Solutions" style="border: 0 px"></a>
+<div id="feedback-container">Feedback about: <span id="food-feedback"><a href="https://vitabella-plainfield.foodtecsolutions.com:9443/feedback">Food &amp; Service</a></span>
+ - <span id="website-feedback"><a href="https://vitabella-plainfield.foodtecsolutions.com:9443/experience">Website</a></span>
+</div>
+</div>
+<div id="footer-right-container">
+<div id="secure-image-wrapper"><a href="https://vitabella-plainfield.foodtecsolutions.com:9443/help"><img src="./help_files/webfile(23)" alt="Take a guided tour"></a><span id="secure-image"><a href="https://seal.godaddy.com/verifySeal?sealID=o0OMuNzWShqwOrNT4gYTV8krkgpG5qTe56czm4nK4Pn8IbPXfBnt5W" target="_blank"><img src="./help_files/webfile(16)" alt="100% Secure Site"></a><br>Click to verify.</span></div>
+</div>
+</td></tr>
+</tbody></table>
+</div>
+
+</div></div><div id="lbOverlay" style="display: none;"></div><div id="lbCenter" style="display: none;"><div id="lbImage"><div style="position: relative;"><a id="lbPrevLink" href="https://vitabella-plainfield.foodtecsolutions.com:9443/help#"></a><a id="lbNextLink" href="https://vitabella-plainfield.foodtecsolutions.com:9443/help#"></a></div></div></div><div id="lbBottomContainer" style="display: none;"><div id="lbBottom"><a id="lbCloseLink" href="https://vitabella-plainfield.foodtecsolutions.com:9443/help#"></a><div id="lbCaption"></div><div id="lbNumber"></div><div style="clear: both;"></div></div></div></body></html>
