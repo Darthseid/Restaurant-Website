@@ -5,7 +5,8 @@
 @charset "utf-8";
 @import url(http://fonts.googleapis.com/css?family=McLaren&subset=latin,latin-ext);
 /* CSS Document */
-body {
+body 
+{
 	font-family:Verdana, Geneva, sans-serif;
 	color:#fff;
 	text-align:justify;
@@ -13,29 +14,35 @@ body {
 	line-height:16px;
 	background:#2b1324 repeat;
 }
-#container {
+#container 
+{
 	width:1006px;
 	margin:0 auto;
 	padding:0;
 }
-.clearBoth {
+.clearBoth 
+{
 	clear:both;
 }
 /*  Header  */
-#headerCont {
+#headerCont 
+{
 	width:1000px;
 	height:225px;
-	background:url(images/headerPizzaImg.jpg) no-repeat;
+	background:url(../Images/headerPizzaImg.jpg) no-repeat;
 }
-#logoCont {
+#logoCont 
+{
 	width:323px;
 	float:left;
 }
-#header02 {
+#header02 
+{
 	width:677px;
 	float:left;
 }
-#socialNetCont {
+#socialNetCont 
+{
 	width:677px;
 	height:51px;
 	float:left;
@@ -44,72 +51,85 @@ body {
 	position: relative;
 }
 
-#subNavCont {
+#subNavCont 
+{
 	width:677px;
 	text-align:right;
 	height:77px;
 	position: relative;
 	*height: 26px;
 }
-#navCont {
+#navCont 
+{
 	width:677px;
-	background: url('/images/main-menu-bg.jpg');
+	background: url('../Images/main-menu-bg.jpg');
 	height: 79px;
 }
 /*  Main Area  */
-#mainAreaCont {
+#mainAreaCont 
+{
 	width:1000px;
 	height:420px;
 	background:#000;
 }
-#paddingBtm {
+#paddingBtm 
+{
 	width:1000px;
 	padding-bottom:1px;
 }
-#whitePxlLine {
+#whitePxlLine 
+{
 	width:1000px;
 	height:2px;
 	margin-top:5px;
 	margin-bottom:13px;
 	background:#fff;
 }
-#leftCont {
+#leftCont
+ {
 	width:502px;
 	height:400px;
 	float:left;
 }
-#leftContContent {
+#leftContContent
+ {
 	width:462px;
 	height:313px;
 	padding:0 20px 20px 20px;
 }
-#rightCont {
+#rightCont 
+{
 	width:498px;
 	height:333px;
 	float:left;
 }
-#flashCont {
+#flashCont
+ {
 	width:498px;
 	height:333px;
-	background:url(images/vita-flashHolder.jpg) no-repeat;
+	background:url(../Images/vita-flashHolder.jpg) no-repeat;
 }
 /*  Sub-Footer  */
-#subFooter {
+#subFooter 
+{
 	width:1000px;
 	height:155px;
-	background: url(images/subFooter.png) no-repeat #d4c891;
+	background: url(../Images/subFooter.png) no-repeat #d4c891;
 }
 
-.new#subFooter {
+.new#subFooter 
+{
 	width:1000px;
 	height:155px;
-	background: url(images/footer-bg.png) no-repeat #d4c891;
+	background: url(../Images/footer-bg.png) no-repeat #d4c891;
 }
-.new #galleryCont{
-	background: url(images/footer-gallery.png) no-repeat 7px 12px;
+.new #galleryCont
+{
+	background: url(../Images/footer-gallery.png) no-repeat 7px 12px;
 }
 
-#galleryCont {
+#galleryCont 
+{
 	width:171px;
 	height:155px;
 	padding-left:168px;
@@ -117,7 +137,8 @@ body {
 	text-align:left;
 	float:left;
 }
-#specialsCont {
+#specialsCont
+ {
 	width:349px;
 	height:155px;
 	
@@ -127,28 +148,33 @@ body {
 	cursor: pointer;
 	margin-top: 9px;
 }
-.new #specialsCont{
+.new #specialsCont
+{
 	margin-left: 9px;
 }
-#specialsCont #specialsCont-head{
+#specialsCont #specialsCont-head
+{
 	color: darkred;
 	float: left;
 	display: block;
 	font-size: 50px;
 	padding: 20px;
 }
-#specialsCont #specialsCont-content-1{
+#specialsCont #specialsCont-content-1
+{
 	font-size: 23px;
 	line-height: 24px;
 	margin-top: 21px;
 }
-#specialsCont ul{
+#specialsCont ul
+{
 	margin-top: -8px;
 	font-size: 15px;
 	line-height: 20px;
 }
 
-#cateringCont {
+#cateringCont 
+{
 	width:290px;
 	height:155px;
 	padding-right:22px;
@@ -156,10 +182,12 @@ body {
 	text-align:left;
 	float:left;
 }
-#rewardsCont a:link, #rewardsCont a:active, #rewardsCont a:visited {
+#rewardsCont a:link, #rewardsCont a:active, #rewardsCont a:visited 
+{
 	color:#000;	
 }
-#rewardsCont a:hover {
+#rewardsCont a:hover 
+{
 	color:#2b1324;	
 }
 /*  Footer  */
@@ -168,20 +196,24 @@ body {
 	font-size:10px;
 	padding:3px 0 3px 0;
 }
-#copyright {
+#copyright 
+{
 	width:200px;
 	float:left;
 }
-#footerNav {
+#footerNav 
+{
 	width:800px;
 	text-align:right;
 	float:left;
 }
-#footerNav a:link, #footerNav a:active, #footerNav a:visited {
+#footerNav a:link, #footerNav a:active, #footerNav a:visited 
+{
 	text-decoration:none;
 	color:#fff;	
 }
-#footerNav a:hover {
+#footerNav a:hover 
+{
 	color:#f8b622;	
 }
 /*  Pizza Page Styles  */
@@ -190,47 +222,56 @@ body {
 	height:333px;
 	float:left;
 }
-#leftContPizza {
+#leftContPizza 
+{
 	width:606px;
 	height:333px;
 	float:left;
 }
-#leftContPizzaContent {
+#leftContPizzaContent 
+{
 	width:566px;
 	height:313px;
 	padding:0 20px 20px 20px;
 }
 /*  Locations Page Styles  */
-#pizzaPageCont {
+#pizzaPageCont
+ {
 	width:1000px;
 	height:333px;
 }
 
 
-#locationCont a:link, #locationCont a:active, #locationCont a:visited {
+#locationCont a:link, #locationCont a:active, #locationCont a:visited
+ {
 	text-decoration:none;
 	color:#fff;	
 }
-#locationCont a:hover {
+#locationCont a:hover
+ {
 	color:#f8b622;	
 }
 
-#rightLocationCont {
+#rightLocationCont
+ {
 	width:500px;
 }
-.mapCont {
+.mapCont 
+{
 	width:190px;
 	height:235px;
 	padding-left:25px;
 	float:left;
 }
-#mapContentCont01 {
+#mapContentCont01 
+{
 	width:275px;
 	height:220px;
 	padding-top:15px;
 	float:left;
 }
-#mapContentCont02 {
+#mapContentCont02 
+{
 	width:275px;
 	height:220px;
 	padding-top:15px;
@@ -238,64 +279,76 @@ body {
 	float:left;
 }
 /*  Gallery  */
-#leftContGallery {
+#leftContGallery 
+{
 	width:1000px;
 	height:333px;
 	float:left;
 }
-#leftContGalleryContent {
+#leftContGalleryContent
+ {
 	width:940px;
 	height:313px;
 	padding:0 20px 20px 40px;
 }
-.photoBox {
+.photoBox 
+{
 	width:155px;
 	padding-bottom:20px;
 	text-align: left;
 	float:left;
 }
-#pageTitle02 {
+#pageTitle02 
+{
 	width:975px;
 	height:34px;
 	padding-left:25px;
 }
 /*  Locations  */
-locationsPageCont {
+locationsPageCont 
+{
 	width:1000px;
 	background:#000;
 }
-#pageTitle {
+#pageTitle
+ {
 	width:975px;
 	height:34px;
 	padding-left:25px;
 }
-#topContent {
+#topContent 
+{
 	width:630px;
 	height:50px;
 	padding-top:10px;
 	padding-left:25px
 }
-#locationCont {
+#locationCont 
+{
 	width:1000px;
 	float:left;
 	background:#000;
 }	
-#bigMapCont {
+#bigMapCont 
+{
 	width:450px;
 	padding-left:50px;
 	float:left;
 }
-#leftLocationCont {
+#leftLocationCont 
+{
 	width:425px;
 	padding-left:75px;
 	float:left;
 }
 
-.mclaren{
+.mclaren
+{
 	font-family: 'McLaren', Arial, serif; 
 	font-weight: 400; 
 }
-.header-link{
+.header-link
+{
 	font-family: 'McLaren', Arial, serif; 
 	font-weight: 400;
 	color: #ffffff;
@@ -306,15 +359,18 @@ locationsPageCont {
 	float: left;
 	margin-right: 45px;
 }
-.header-link:hover{
+.header-link:hover
+{
 	color: #fab627;
 }
-.header-link.last{
+.header-link.last
+{
 	margin-right: 0px;
 }
 
 #sub-header-link-bg,
-#sub-header-links{
+#sub-header-links
+{
 	height: 26px;
 	width: 285px;
 	position: absolute;
@@ -322,17 +378,20 @@ locationsPageCont {
 	right: 0px;
 }
 
-#sub-header-link-bg{
+#sub-header-link-bg
+{
 	background-color: #000000;
 	zoom: 1;
 	filter: alpha(opacity=50);
 	opacity: 0.5;
 	z-index: 10;	
 }
-#sub-header-links{
+#sub-header-links
+{
 	z-index: 20;
 }
-.sub-header-link{
+.sub-header-link
+{
 	text-transform: uppercase;
 	color: #ffffff;
 	display: block;
@@ -341,20 +400,24 @@ locationsPageCont {
 	font-size: 14px;
 	text-decoration: none;
 }
-.sub-header-link:hover{
+.sub-header-link:hover
+{
 	color: #fab627;
 }
-.location-left{
+.location-left
+{
 	float: left;
 	width: 540px;
 	margin-right: 20px;
 	margin-left: 25px;
 }
-.location-right{
+.location-right
+{
 	float: left;
 	width: 400px;
 }
-.location-heading{
+.location-heading
+{
 	font-weight:bold;
 	color:#fed567;
 	padding-bottom:5px;
@@ -363,7 +426,8 @@ locationsPageCont {
 }
 
 
-.button{
+.button
+{
 	/* Firefox v3.6+ */
 	background-image:-moz-linear-gradient(84% 0% -90deg,rgb(96,43,80) 0%,rgb(43,19,36) 100%); 
 	/* safari v4.0+ and by Chrome v3.0+ */
@@ -393,12 +457,14 @@ locationsPageCont {
 	zoom: 1;
 	*display: inline;
 }
-.location-phone{
+.location-phone
+{
 	font-size: 20px;
 	text-align: left;
 }
 span.gc-cs-link,
-.location-phone a{
+.location-phone a
+{
 	color: #FED567;
 }
 .location-heading,
@@ -409,14 +475,17 @@ span.gc-cs-link,
 .location-phone{
 	margin-bottom: 20px;
 }
-.location-wrapper{
+.location-wrapper
+{
 	margin-bottom: 20px;
 }
-.vita-bella{
+.vita-bella
+{
 	line-height: 1.25em;
 }
 
-.footer-links{
+.footer-links
+{
 	font-family: 'McLaren', Arial, serif; 
 	font-weight: 400;
 	color: #000000;
@@ -426,10 +495,12 @@ span.gc-cs-link,
 	font-size: 22px;
 	line-height: 50px;
 }
-.footer-links:hover{
+.footer-links:hover
+{
 	color: #4A2456;
 }
-.catering-text{
+.catering-text
+{
 	width: 483px;
 	font-size: 18px;
 	line-height: 23px;
@@ -437,8 +508,9 @@ span.gc-cs-link,
 }
 
 
-#footer-rewards{
-	background: url("images/burst.png") -30px -20px no-repeat #FAAF00;
+#footer-rewards
+{
+	background: url("../Images/burst.png") -30px -20px no-repeat #FAAF00;
 	width: 290px;
 	height: 134px;
 	display: block;
@@ -447,7 +519,8 @@ span.gc-cs-link,
 	position: relative;
 	border: 1px solid #A083A0;
 }
-#vbr-new{
+#vbr-new
+{
 	position: absolute;
 	color: #ffffff;
 	top: 27px;
@@ -455,7 +528,8 @@ span.gc-cs-link,
 	font-size: 23px;
 	font-weight: bold;
 }
-#vbr-vb{
+#vbr-vb
+{
 	color: #4B144B;
 	position: absolute;
 	top: 15px;
@@ -465,7 +539,8 @@ span.gc-cs-link,
 	font-size: 25px;
 	letter-spacing: 1px;
 }
-#vbr-rewards{
+#vbr-rewards
+{
 	font-family: 'Doppio One', sans-serif;
 	position: absolute;
 	color: rgb(41,20,36);
@@ -474,7 +549,8 @@ span.gc-cs-link,
 	font-size: 35px;
 }
 
-#vbr-eat-earn{
+#vbr-eat-earn
+{
 	font-family: 'Open Sans', sans-serif;
 	position: absolute;
 	left: 112px;
@@ -483,7 +559,8 @@ span.gc-cs-link,
 	top: 76px;
 	font-weight: bold;
 }
-#vbr-tagline{
+#vbr-tagline
+{
 	font-family: 'Open Sans', sans-serif;
 	position: absolute;
 	left: 14px;
@@ -493,21 +570,24 @@ span.gc-cs-link,
 	font-style: italic;
 }
 
-#rewards-head{
+#rewards-head
+{
 	font-family: 'Open Sans', sans-serif;
 	color: #EDC660;
 	font-size: 32px;
 	padding-bottom: 20px;
 }
 
-#rewards-enroll{
+#rewards-enroll
+{
 	font-family: 'Doppio One', sans-serif;
 	font-size: 20px;
 	padding-top: 20px;
 	padding-bottom: 20px;
 }
 
-#rewards-offer{
+#rewards-offer
+{
 	text-align: center;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 40px;
@@ -515,37 +595,44 @@ span.gc-cs-link,
 	color: #FAAF00;
 	font-weight: bold;
 }
-#rewards-offer-terms{
+#rewards-offer-terms
+{
 	text-align: center;
 	line-height: 2em;
 	padding-bottom: 20px;
 }
 
-#rewards-text{
+#rewards-text
+{
 	font-weight: bold;
 	font-size: 16px;
 	line-height: 1.25em;
 }
-#rewards-vb{
+#rewards-vb
+{
 	color: red;
 }
 
-#rewards-list{
+#rewards-list
+{
 	margin-top: 10px;
 	font-size: 15px;
 	line-height: 1.4em;
 	font-weight: bold;
 	color: red;
 }
-#rewards-not-included{
+#rewards-not-included
+{
 	font-weight: normal;
 	color: #ffffff;
 }
-#rewards-double{
+#rewards-double
+{
 	margin-top: 20px;
 	text-align: center;
 }
-#rewards-enroll-location{
+#rewards-enroll-location
+{
 	font-weight: bold;
 	margin-top: 40px;
 	margin-bottom: 10px;
@@ -555,28 +642,33 @@ span.gc-cs-link,
 }
 
 .rewards-location a,
-.rewards-location a:visited{
+.rewards-location a:visited
+{
 	color: #FAAF00;
 }
 
-#rewards-fine-print{
+#rewards-fine-print
+{
 	font-size: 10px;
 	margin-top: 30px;
 }
 
-#subFooter{
+#subFooter
+{
 	height: 204px;
 	background: none;
 	background-color: #D4C991;
 }
-#footerCont{
+#footerCont
+{
 	top: 210px;
 	position: relative;
 	
 }
 
-#footer-rewards-20141022{
-	background-image: url("images/rewards-bg.png");
+#footer-rewards-20141022
+{
+	background-image: url("../Images/rewards-bg.png");
 	width: 979px;
 	height: 184px;
 	margin-left: 11px;
@@ -584,16 +676,18 @@ span.gc-cs-link,
 	position: relative;
 }
 
-#rewards-naperville{
-	background-image: url("images/rewards-naperville.png");
+#rewards-naperville
+{
+	background-image: url("../Images/rewards-naperville.png");
 	position: absolute;
 	width: 275px;
 	height: 36px;
 	left: 395px;
 	top: 136px;
 }
-#rewards-shorewood{
-	background-image: url("images/rewards-shorewood.png");
+#rewards-shorewood
+{
+	background-image: url("../Images/rewards-shorewood.png");
 	position: absolute;
 	width: 283px;
 	height: 36px;
@@ -601,9 +695,11 @@ span.gc-cs-link,
 	top: 136px;
 }
 
-#rewards-naperville:hover{
-	background-image: url("images/rewards-naperville-hover.png");
+#rewards-naperville:hover
+{
+	background-image: url("../Images/Vita_Bella_Hover_North.png");
 }
-#rewards-shorewood:hover{
-	background-image: url("images/rewards-shorewood-hover.png");
+#rewards-shorewood:hover
+{
+	background-image: url("../Images/Vita_Bella_Hover_South.png");
 }
