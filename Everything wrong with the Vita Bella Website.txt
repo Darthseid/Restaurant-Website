@@ -1,0 +1,21 @@
+1. The year is not updated
+2. The locations button and the menu button are not seperated.
+3. Order Online and Locations button lead to the same area.
+4."Italy" is misspelled on About Us.
+5. Vita Bella URL logo area is too big.
+6. There is no way to get to the order P.O.S. from the home page.
+7. The menu is a non-interactive PDF.
+8. Dining Room party packages are also non-interactive.
+9. Outside of the gallery page, you cannot zoom in on photos.
+10. The gallery page is hidden at the footer of the webpage.
+11. Catering menu is the third non-interactive PDF.
+12. Foodtec page has an ugly gray border at the top of the screen.
+13. Foodtec zone has an ugly purple background that clashes with other objects on the screen.
+14. The Party Packages link do not highlight or change at all when a user hovers over them.
+15. Address book locations are not updated.
+16. I get "Credit card is not correct length." errors.
+17. "Deferred" is spelled wrong on checkout menu.
+18. The checkout menu mentions the Super Bowl despite the fact that it is May.
+
+
+I do like the tip warning system however.
